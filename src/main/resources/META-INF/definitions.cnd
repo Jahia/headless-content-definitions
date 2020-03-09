@@ -1,0 +1,10 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<jntuto = 'http://www.jahia.org/jahia/tutorial/nt/1.0'>
+<mix = 'http://www.jcp.org/jcr/mix/1.0'>
+
+[jntuto:tutorialItem] > jnt:content, jmix:editorialContent, jmix:structuredContent, mix:title
+ - jcr:title (string)
+ - body (string, richtext)
+ - image (weakreference, picker[type='image'])
+
