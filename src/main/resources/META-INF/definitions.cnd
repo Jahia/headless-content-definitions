@@ -6,5 +6,5 @@
 [jntuto:tutorialItem] > jnt:content, jmix:editorialContent, jmix:structuredContent, mix:title
  - jcr:title (string)
  - body (string, richtext)
- - image (weakreference, picker[type='image'])
+ - image (weakreference, picker[type='image']) mandatory
 
