@@ -52,7 +52,7 @@
     <parent>
         <artifactId>jahia-modules</artifactId>
         <groupId>org.jahia.modules</groupId>
-        <version>8.0.0.0-SNAPSHOT</version>
+        <version>8.0.0.0</version>
     </parent>
     <groupId>org.jahia.tutorial</groupId>
     <artifactId>headless-tutorial-content-definitions</artifactId>
@@ -79,6 +79,11 @@
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
+        </repository>
+        <repository>
+            <id>jahiaRepository</id>
+            <name>Jahia's Maven Repository</name>
+            <url>http://maven.jahia.org/maven2</url>
         </repository>
     </repositories>
 
